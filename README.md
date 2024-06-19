@@ -2,7 +2,7 @@
 # Functions and Errors
 In our Module 1 project of the ETH + AVAX PROOF: Intermediate EVM course by Metacrafter, we'll develop a smart contract utilizing the `require()`, `assert()`, and `revert` functions. These functions help enforce valid inputs, check internal state invariants, and handle error conditions gracefully. These functions are crucial for error handling in Solidity. Proper error management ensures the smart contract executes successfully and helps save users' gas by efficiently using the `revert` function.
 # Error Handlers Used in Code
-require: Ensures certain conditions are met before executing a function.
+require: Ensures certain conditions are met before executing a function.'\n'
 In setGrade, it checks that only the admin can set grades and that grades are within a valid range.
 In deleteStudent, it ensures only the admin can delete grades.
 revert: Stops the execution and reverts any changes made during the transaction if certain conditions are not met.
